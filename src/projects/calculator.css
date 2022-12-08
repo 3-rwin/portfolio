@@ -1,0 +1,74 @@
+body {
+    background-image: url("../img/background_home.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-color: var(--HEADER-BGCOLOR);
+}
+
+.calculator {
+    border: 1px;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 10vh;
+}
+
+.calculator input {
+    font: inherit;
+    outline: none; /* Remove the outline when selecting */
+    width: 100%;
+    font-size: 50px;
+    padding: 20px;
+    border: none;
+    border-bottom: 3px solid black;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 0px;
+}
+
+.buttonGrid {
+    width: 100%;
+    display: grid;
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(4, minmax(0,1fr));
+    grid-template-rows: repeat(5, 3.5rem);
+}
+
+.calculator button {
+    background-color: rgb(185, 185, 185);
+    height: 3.1rem;
+    width: 3.1rem;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.calculator .spanTwoCol {
+    width: 6.8rem;
+    grid-column: span 2;
+    border-radius: 10%;
+}
+
+.calculator .spanTwoRow {
+    height: 6.8rem;
+    grid-row: span 2;
+    border-radius: 10%;
+}
+
+.calculator .colorSpecial {
+    background-color: var(--ACCENT-COLOR);
+}
+
+.calculator .digit {
+    background-color: #333;
+    color: whitesmoke;
+}
