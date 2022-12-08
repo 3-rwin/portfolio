@@ -22,7 +22,7 @@ export const Projects = () => {
           </p>             
           <div className="project__row-content-buttons">
             <Link to="/tic">Probeer</Link>
-            <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/3-rwin/portfolio/blob/master/src/projects/Tic.js" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} /> Code</a>
           </div>
         </div>
@@ -41,7 +41,7 @@ export const Projects = () => {
           </p>             
           <div className="project__row-content-buttons">
             <Link to="/calculator">Probeer</Link>
-            <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/3-rwin/portfolio/blob/master/src/projects/Calculator.js" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} /> Code</a>
           </div>
         </div>
@@ -62,7 +62,7 @@ export const Projects = () => {
           </p>             
           <div className="project__row-content-buttons">
             <a href="/todo">Probeer</a>
-            <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.github.com/3-rwin/todolist" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} /> Code</a>
           </div>
         </div>
@@ -84,7 +84,7 @@ export const Projects = () => {
           </p>             
           <div className="project__row-content-buttons">
             <a href="/blog">Probeer</a>
-            <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.github.com/3-rwin/blog" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} /> Code</a>
           </div>
         </div>
@@ -105,7 +105,7 @@ export const Projects = () => {
           </p>             
           <div className="project__row-content-buttons">
             <a href="/chat"  target="_blank" rel="noopener noreferrer">Probeer</a>
-            <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.github.com/3-rwin/chatapp" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} /> Code</a>
           </div>
         </div>
@@ -122,7 +122,7 @@ export const Projects = () => {
           </p>             
           <div className="project__row-content-buttons">
             <a href="/#banner">Probeer</a>
-            <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.github.com/3-rwin/portfolio" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} /> Code</a>
           </div>
         </div>
