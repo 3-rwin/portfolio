@@ -316,11 +316,6 @@ input[type=submit] {
   padding: 0.5rem;
 }
 
-.contactInfo-btns a:hover {
-  padding: 0.5rem;
-  color: black;
-}
-
 .contact form {
   display:flex; 
   flex-direction:column;
