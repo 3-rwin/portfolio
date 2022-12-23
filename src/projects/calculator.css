@@ -9,7 +9,7 @@ body {
     border: 1px;
     border: 3px solid black;
     border-radius: 10px;
-    width: 250px;
+    width: 300px;
     margin-top: 10vh;
 }
 
@@ -32,13 +32,13 @@ body {
     justify-items: center;
     align-items: center;
     grid-template-columns: repeat(4, minmax(0,1fr));
-    grid-template-rows: repeat(5, 3.5rem);
+    grid-template-rows: repeat(5, 70px);
 }
 
 .calculator button {
     background-color: rgb(185, 185, 185);
-    height: 3.1rem;
-    width: 3.1rem;
+    height: 60px;
+    width: 60px;
     border: 2px;
     border-style: solid;
     border-color: black;
@@ -53,13 +53,13 @@ body {
 }
 
 .calculator .spanTwoCol {
-    width: 6.8rem;
+    width: 130px;
     grid-column: span 2;
     border-radius: 10%;
 }
 
 .calculator .spanTwoRow {
-    height: 6.8rem;
+    height: 130px;
     grid-row: span 2;
     border-radius: 10%;
 }
