@@ -7,9 +7,6 @@ const Header = () => {
   return (
     <header className="header">
         <div className="header__title">
-          <a href="/#banner">
-            <h1>3RWIN.NL</h1>
-          </a>
         </div>
         <nav className="header__nav">
             <a href="/#about">Over</a>
