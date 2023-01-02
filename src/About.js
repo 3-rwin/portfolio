@@ -7,10 +7,10 @@ export const About = () => {
       <div className="aboutContent">
         <div className="aboutText">
           <p>
-            Na bijna 15 jaar werkzaam in de Telecom branch is het tijd voor een nieuwe uitdaging. 
-            Werken met opensource producten zoals Kamailio, Freeswitch, Ansible, GIT, MySQL op Linuxservers heeft mij veel kennis gebracht wat betreft IT architectuur.
+            Na bijna 15 jaar werkzaam in de Telecom branch is het voor mij tijd voor een nieuwe uitdaging. 
+            Werken met opensource producten zoals Kamailio, Freeswitch, Ansible, GIT en MySQL op Linuxservers heeft mij veel kennis gebracht wat betreft IT architectuur.
             Maar daarnaast vind ik het in mijn vrije tijd al tijden leuk om te programmeren. Zo heb ik voor een Escape room een Android App en Raspberry Pi software geschreven in Python,
-            en bouw ik voor diezelfde Escape Room diverse puzzels met Arduino's. 
+            en bouw ik voor diezelfde Escape Room diverse puzzels met Arduino's en programmeer deze in C. 
           </p>
           <p>
             De afgelopen maanden heb ik mij verdiept in Web development: HTML, CSS, Javascript, en vervolgens React. Eerst gewoon om te kijken wat er mee kan, maar ik merk dat ik zoveel plezier uit het bouwen van dit soort
