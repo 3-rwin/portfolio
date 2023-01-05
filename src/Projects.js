@@ -44,6 +44,27 @@ export const Projects = () => {
 
       <div className="project__row">
         <div className="project__row-img">
+          <img src={require('./img/screen_quiz.png')} alt="" width="200px" />
+        </div>
+        <div className="project__row-content">
+          <h3 className="project__row-content-title">Quiz applicatie</h3>
+          <p className="project__row-content-desc">
+          Gebasseerd op <a href="https://www.youtube.com/watch?v=F2JCjVSZlG0"  target="_blank" rel="noopener noreferrer"> 
+          React / Typescript Tutorial <FontAwesomeIcon icon={faUpRightFromSquare} /></a>. Belangrijkste 
+          React features: useState. Geschreven in TypeScript. Voor de backend 
+          wordt gebruik gemaakt van <a href="https://opentdb.com/api_config.php"  target="_blank" rel="noopener noreferrer">
+          Open Trivia DB <FontAwesomeIcon icon={faUpRightFromSquare} /></a>.
+          </p>             
+          <div className="project__row-content-buttons">
+            <a href="/quiz"  target="_blank" rel="noopener noreferrer">Probeer</a>
+            <a href="https://www.github.com/3-rwin/reactquiz" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faGithub} /> Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div className="project__row">
+        <div className="project__row-img">
           <img src={require('./img/screen_chat.png')} alt="" width="200px" />
         </div>
         <div className="project__row-content">
@@ -108,23 +129,6 @@ export const Projects = () => {
 
       <div className="project__row">
         <div className="project__row-img">
-          <img src={require('./img/screen_website.png')} alt="" width="200px" />
-        </div>
-        <div className="project__row-content">
-          <h3 className="project__row-content-title">Deze website</h3>
-          <p className="project__row-content-desc">
-            Deze porfolio site. Belangrijkste React features: useState, useEffect, BrowserRouter, Routes en Navigate. 
-          </p>             
-          <div className="project__row-content-buttons">
-            <a href="/#banner">Probeer</a>
-            <a href="https://www.github.com/3-rwin/portfolio" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faGithub} /> Code</a>
-          </div>
-        </div>
-      </div>
-
-      <div className="project__row">
-        <div className="project__row-img">
           <img src={require('./img/screen_calc.png')} alt="" width="200px" />
         </div>
         <div className="project__row-content">
@@ -155,6 +159,22 @@ export const Projects = () => {
           <div className="project__row-content-buttons">
             <Link to="/tic">Probeer</Link>
             <a href="https://github.com/3-rwin/portfolio/blob/master/src/projects/Tic.js" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faGithub} /> Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div className="project__row">
+        <div className="project__row-img">
+          <img src={require('./img/screen_website.png')} alt="" width="200px" />
+        </div>
+        <div className="project__row-content">
+          <h3 className="project__row-content-title">Deze website</h3>
+          <p className="project__row-content-desc">
+            Deze porfolio site. Belangrijkste React features: useState, useEffect, BrowserRouter, Routes en Navigate. 
+          </p>             
+          <div className="project__row-content-buttons">
+            <a style={{ gridColumn: "2 / 2"}}href="https://www.github.com/3-rwin/portfolio" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} /> Code</a>
           </div>
         </div>

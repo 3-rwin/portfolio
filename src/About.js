@@ -9,11 +9,11 @@ export const About = () => {
           <p>
             Na bijna 15 jaar werkzaam in de Telecom branch is het voor mij tijd voor een nieuwe uitdaging. 
             Werken met opensource producten zoals Kamailio, Freeswitch, Ansible, GIT en MySQL op Linuxservers heeft mij veel kennis gebracht wat betreft IT architectuur.
-            Maar daarnaast vind ik het in mijn vrije tijd al tijden leuk om te programmeren. Zo heb ik voor een Escape room een Android App en Raspberry Pi software geschreven in Python,
+            Maar daarnaast vind ik het in mijn vrije tijd leuk om te programmeren. Zo heb ik voor een Escape room een Android App en Raspberry Pi software geschreven in Python,
             en bouw ik voor diezelfde Escape Room diverse puzzels met Arduino's en programmeer deze in C. 
           </p>
           <p>
-            De afgelopen maanden heb ik mij verdiept in Web development: HTML, CSS, Javascript, en vervolgens React. Eerst gewoon om te kijken wat er mee kan, maar ik merk dat ik zoveel plezier uit het bouwen van dit soort
+            De afgelopen maanden heb ik mij verdiept in Web development: HTML, CSS, Javascript, TypeScript en React. Eerst gewoon om te kijken wat er mee kan, maar ik merk dat ik zoveel plezier uit het bouwen van dit soort
             interactieve apps en websites haal dat ik hier mijn werk van wil maken. Bekijk de <a href="/#projects">projecten</a> voor mijn huidige ervaring.
           </p>
           <p>
@@ -32,6 +32,7 @@ export const About = () => {
           <a href="https://www.python.org/" title="Python is a high-level, general-purpose programming language" target="_blank" rel="noopener noreferrer"><img src={require('./img/logos/python.png')} alt="Python logo" /></a>
           <a href="https://www.javascript.com/" title="JavaScript is a programming language that is one of the core technologies of the World Wide Web" target="_blank" rel="noopener noreferrer"><img src={require('./img/logos/js.png')} alt="Javascript logo" /></a>
           <a href="https://reactjs.org/" title="React is an open-source front-end JavaScript library for building user interfaces" target="_blank" rel="noopener noreferrer"><img src={require('./img/logos/react.png')} alt="React logo" /></a>
+          <a href="https://www.typescriptlang.org/" title="TypeScript is a strongly typed programming language that builds on JavaScript" target="_blank" rel="noopener noreferrer"><img src={require('./img/logos/ts.png')} alt="TypeScript logo" /></a>
         </div>
         </div>
     </section>
