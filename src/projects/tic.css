@@ -27,7 +27,7 @@ body {
 }
 
 .active {
-    background-color: var(--DARK-ACCENT);
+    background-color: var(--DARK-ACCENT-COLOR);
 }
 
 .ticButtonGrid {
