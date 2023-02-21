@@ -21,7 +21,9 @@ export const Projects = () => {
               en Axios.
             </p>
             <div className="project__row-content-buttons">
-              <a href="/housefinder">Preview</a>
+              <a href="/housefinder" target="_blank" rel="noopener noreferrer">
+                Probeer
+              </a>
               <a href="https://www.github.com/3-rwin/housefinder" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faGithub} /> Code
               </a>
@@ -39,7 +41,9 @@ export const Projects = () => {
               useEffect, en dataContext.
             </p>
             <div className="project__row-content-buttons">
-              <a href="/oscclient">Probeer</a>
+              <a href="/oscclient" target="_blank" rel="noopener noreferrer">
+                Probeer
+              </a>
               <a href="https://www.github.com/3-rwin/osc-client" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faGithub} /> Code
               </a>

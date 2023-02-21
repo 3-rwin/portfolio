@@ -6,7 +6,6 @@ import Missing from "./Missing";
 import {Route, Routes} from "react-router-dom";
 import Calculator from "./projects/Calculator";
 import Tic from "./projects/Tic";
-import HouseFinder from "./projects/housefinder";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/tic" element={<Tic />} />
-        <Route path="/housefinder" element={<HouseFinder />} />
         <Route path="*" element={<Missing />} />
       </Routes>
       <Footer />
